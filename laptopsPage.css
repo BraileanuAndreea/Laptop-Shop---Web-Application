@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	background-color: #A4E4EA;
+	height: 100%;
+}
+
+.mycontainer{
+	position: absolute;
+	background-color: #A4E4EA;
+	width: 100%;
+	padding-top: 15px;
+	margin: 0px;
+}
+
+.title_laptops{
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+    display: block;
+}
+
+.menu ul{
+	padding: 0px;
+	clear: both;
+	height: 40px;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	margin-left: 380px;
+}
+.menu li{
+
+}
+.tab2{
+	margin-left: 20px;
+}
+.tab {
+	display: inline-block;
+	border:3px solid #3E4651;
+	width:110px;
+	padding:10px;
+	border-radius:6px;
+	background-color: #47B2BA/*#D4D4D4*/;
+	cursor:pointer;
+	outline:none;
+}
+.tab:hover {
+	background:white;
+	a:link, a:visited {
+	font-size:16px;
+	font-weight:700;
+    color: #3E4651;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+}
+
+a{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+a:link, a:visited {
+	font-size:16px;
+	font-weight:700;
+    color: #3E4651;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    color: #F1654C;
+}
+
+/*add_laptop modal bootstrap*/
+.center {
+    margin-top:50px;   
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+	
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+
+.btn-primary {
+	margin-top: -40px !important;
+    border: 3px solid #3E4651 !important;
+    color: #3E4651 !important;
+    border-radius: 6px !important;
+    background-color: white !important;
+    width: 120px !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+.btn-primary:hover {
+	background:#D4D4D4 !important;
+}
+
+.div_add_laptop{
+	margin-bottom: 20px;
+}
